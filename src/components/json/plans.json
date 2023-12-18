@@ -1,0 +1,246 @@
+{
+  "monthly": [
+    {
+      "id": 1,
+      "title": "Free",
+      "features": [
+        { "id": "bf1", "included": true, "feature": "Access to 20+ courses" },
+        {
+          "id": "bf2",
+          "included": true,
+          "feature": "10 videos on each <br /> courses"
+        },
+        { "id": "bf3", "included": false, "feature": "Query tool access" },
+        {
+          "id": "bf4",
+          "included": false,
+          "feature": "Built-in Code testing"
+        },
+        { "id": "bf5", "included": false, "feature": "Email help" },
+        { "id": "bf6", "included": false, "feature": "Chat help" }
+      ],
+      "price": 0
+    },
+    {
+      "id": 2,
+      "title": "Standard",
+      "features": [
+        {
+          "id": "mstf1",
+          "included": true,
+          "feature": "Access to all available courses"
+        },
+        {
+          "id": "mstf2",
+          "included": true,
+          "feature": "30+ videos on each course"
+        },
+        { "id": "mstf3", "included": true, "feature": "Query tool access" },
+        {
+          "id": "mstf4",
+          "included": true,
+          "feature": "Built-in Code testing"
+        },
+        { "id": "mstf5", "included": true, "feature": "Email help" },
+        { "id": "mstf6", "included": false, "feature": "Chat help" }
+      ],
+      "price": 4.99
+    },
+    {
+      "id": 3,
+      "title": "Silver",
+      "features": [
+        {
+          "id": "msf1",
+          "included": true,
+          "feature": "Access to all available courses"
+        },
+        {
+          "id": "msf2",
+          "included": true,
+          "feature": "Access to complete videos of 200+ video library"
+        },
+        { "id": "msf3", "included": true, "feature": "Query tool access" },
+        {
+          "id": "msf4",
+          "included": true,
+          "feature": "Built-in Code testing"
+        },
+        { "id": "msf5", "included": true, "feature": "Email help" }
+      ],
+      "price": 7.99
+    },
+    {
+      "id": 4,
+      "title": "Premium",
+      "features": [
+        {
+          "id": "mpf1",
+          "included": true,
+          "feature": "Access to all available courses"
+        },
+        {
+          "id": "mpf2",
+          "included": true,
+          "feature": "Access to complete videos of 200+ video library"
+        },
+        { "id": "mpf3", "included": true, "feature": "Query tool access" },
+        {
+          "id": "mpf4",
+          "included": true,
+          "feature": "Built-in Code testing"
+        },
+        { "id": "mpf5", "included": true, "feature": "Email help" },
+        { "id": "mpf6", "included": true, "feature": "Chat help" }
+      ],
+      "price": 9.99
+    }
+  ],
+  "annualy": [
+    {
+      "id": 5,
+      "title": "Free",
+      "features": [
+        { "id": "abf1", "included": true, "feature": "Access to 20+ courses" },
+        {
+          "id": "abf2",
+          "included": true,
+          "feature": "10 videos on each <br /> courses"
+        },
+        { "id": "abf3", "included": false, "feature": "Query tool access" },
+        { "id": "abf4", "included": false, "feature": "Built-in Code testing" },
+        { "id": "abf5", "included": false, "feature": "Email help" },
+        { "id": "abf6", "included": false, "feature": "Chat help" }
+      ],
+      "price": 0
+    },
+    {
+      "id": 6,
+      "title": "Standard",
+      "features": [
+        {
+          "id": "astf1",
+          "included": true,
+          "feature": "Access to all available courses"
+        },
+        {
+          "id": "astf2",
+          "included": true,
+          "feature": "30+ videos on each course"
+        },
+        { "id": "astf3", "included": true, "feature": "Query tool access" },
+        { "id": "astf4", "included": true, "feature": "Built-in Code testing" },
+        { "id": "astf5", "included": true, "feature": "Email help" },
+        { "id": "astf6", "included": false, "feature": "Chat help" }
+      ],
+      "price": 14.99
+    },
+    {
+      "id": 7,
+      "title": "Silver",
+      "features": [
+        {
+          "id": "asf1",
+          "included": true,
+          "feature": "Access to all available courses"
+        },
+        {
+          "id": "asf2",
+          "included": true,
+          "feature": "Access to complete videos of 200+ video library"
+        },
+        { "id": "asf3", "included": true, "feature": "Query tool access" },
+        { "id": "asf4", "included": true, "feature": "Built-in Code testing" },
+        { "id": "asf5", "included": true, "feature": "Email help" }
+      ],
+      "price": 17.99
+    },
+    {
+      "id": 8,
+      "title": "Premium",
+      "features": [
+        {
+          "id": "apf1",
+          "included": true,
+          "feature": "Access to all available courses"
+        },
+        {
+          "id": "apf2",
+          "included": true,
+          "feature": "Access to complete videos of 200+ video library"
+        },
+        { "id": "apf3", "included": true, "feature": "Query tool access" },
+        { "id": "apf4", "included": true, "feature": "Built-in Code testing" },
+        { "id": "apf5", "included": true, "feature": "Email help" },
+        { "id": "apf6", "included": true, "feature": "Chat help" }
+      ],
+      "price": 19.99
+    }
+  ],
+  "comparision": [
+    {
+      "title": "Basic Features",
+      "description": "",
+      "free": true,
+      "standard": true,
+      "silver": true,
+      "premium": true
+    },
+    {
+      "title": "Course Videos",
+      "description": "",
+      "free": true,
+      "standard": true,
+      "silver": true,
+      "premium": true
+    },
+    {
+      "title": "Email help",
+      "description": "",
+      "free": false,
+      "standard": true,
+      "silver": true,
+      "premium": true
+    },
+    {
+      "title": "Query tool access",
+      "description": "",
+      "free": false,
+      "standard": true,
+      "silver": true,
+      "premium": true
+    },
+    {
+      "title": "Built-in Code testing",
+      "description": "",
+      "free": false,
+      "standard": true,
+      "silver": true,
+      "premium": true
+    },
+    {
+      "title": "Complete access to courses",
+      "description": "",
+      "free": false,
+      "standard": false,
+      "silver": true,
+      "premium": true
+    },
+    {
+      "title": "Chat help",
+      "description": "",
+      "free": false,
+      "standard": false,
+      "silver": true,
+      "premium": true
+    },
+    {
+      "title": "Course teaching license",
+      "description": "",
+      "free": false,
+      "standard": false,
+      "silver": false,
+      "premium": true
+    }
+  ]
+}

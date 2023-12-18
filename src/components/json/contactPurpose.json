@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "value": "my_account",
+    "label": "My Account"
+  },
+  {
+    "id": 2,
+    "value": "payment",
+    "label": "Payment"
+  },
+  {
+    "id": 3,
+    "value": "live_class",
+    "label": "Live Class"
+  },
+  {
+    "id": 4,
+    "value": "internship",
+    "label": "Internship"
+  },
+  {
+    "id": 5,
+    "value": "consultancy",
+    "label": "Consultancy"
+  },
+  {
+    "id": 6,
+    "value": "corporate_training",
+    "label": "Corporate Training"
+  },
+  {
+    "id": 7,
+    "value": "others",
+    "label": "Others"
+  }
+]

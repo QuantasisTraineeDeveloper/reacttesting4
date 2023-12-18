@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "value": "free",
+    "label": "Free",
+    "price": 0.0
+  },
+  {
+    "id": 2,
+    "value": "standard",
+    "label": "Standard",
+    "price": 4.99
+  },
+  {
+    "id": 3,
+    "value": "silver",
+    "label": "Silver",
+    "price": 7.99
+  },
+  {
+    "id": 4,
+    "value": "premium",
+    "label": "Premium",
+    "price": 9.99
+  }
+]

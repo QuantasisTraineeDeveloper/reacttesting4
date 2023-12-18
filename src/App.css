@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,300;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --secondaryBlack: #313131;
+  --borderColor: #141414;
+  --primary: #3f6fd8;
+  --lightBlue: #0074cc;
+  --darkBlue: #181059;
+  --crimson: #c91d2e;
+  --orange: #d39331;
+  --lightOrange: #edbb01;
+  --yellowGreen: #567a0d;
+  --gray: #f5f5f5;
+  --lightGray: #e6e6e6;
+  --green: #2f6f44;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #313131;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #313131;
+}
+a {
+  text-decoration: none;
+  transition: 200ms all ease-in-out !important;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading svg {
+  animation: loading-spin infinite 1s linear;
+}
+.ant-select-suffix {
+  background-image: url("../public/images/down-arrow.png") !important;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 10px;
+}
+.ant-select-suffix svg {
+  display: none;
+}
+.addNewTag {
+  background: white;
+  border-style: dashed;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.newTag {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  user-select: none;
+}
+.tagInput {
+  width: 100px;
+  height: 40px !important;
+  vertical-align: top;
+}
+
+.newLearningPoint {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #31313130;
+  padding: 0 2em;
+  margin: 0 0 2rem 0;
+  font-size: 1em;
+  background-color: white;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .newLearningPoint {
+    padding: 0 1em;
+  }
+}
+
+.addNewLearningPoint {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #31313130;
+  padding: 4px 11px;
+  margin: 0 0.5rem 2rem 0.5rem;
+  font-size: 1em;
+  background-color: white;
+  width: 48.5% !important;
+  cursor: text;
+}
+.addNewLearningPoint:hover {
+  border-color: #40a9ff;
+}
+
+@media (max-width: 992px) {
+  .addNewLearningPoint {
+    height: 38px;
+    width: 100% !important;
+  }
+}

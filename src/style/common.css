@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,300;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --secondaryBlack: #313131;
+  --borderColor: #141414;
+  --primary: #3f6fd8;
+  --lightBlue: #0074cc;
+  --darkBlue: #181059;
+  --crimson: #c91d2e;
+  --orange: #d39331;
+  --lightOrange: #edbb01;
+  --yellowGreen: #567a0d;
+  --gray: #f5f5f5;
+  --lightGray: #e6e6e6;
+  --green: #2f6f44;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  /* color: #313131; */
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #313131;
+}
+@media only screen and (max-width: 992px) {
+  .noCourse {
+    padding: 2rem;
+    font-size: 1em;
+  }
+}
